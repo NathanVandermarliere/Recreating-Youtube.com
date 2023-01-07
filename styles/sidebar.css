@@ -1,0 +1,37 @@
+.sidebar{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ top: 55px;
+ background-color: white;
+ width: 72px;
+ z-index: 200;
+ padding-top: 5px;
+}
+
+.sidebar-link{ /*css selector*/
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-link:hover{
+  background-color: rgba(211, 211, 211, 0.53);
+}
+
+/*.sidebar-link,
+.header{            this will apply to both classes or elements
+}*/
+
+.sidebar-link img{ /*we will target not all images on the page, only the ones inside said class*/
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div{
+  font-size: 10px;
+
+}
